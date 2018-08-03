@@ -1,0 +1,263 @@
+
+
+
+.back {
+  background-color: white;
+}
+.top{
+background-color: #306391;
+}
+
+
+.header {
+  overflow: hidden;
+  background-color: #356fa3;
+  padding: 20px 10px;
+  font-family: Gill Sans, sans-serif;
+}
+.footer {
+  text-align: center;
+}
+.line {
+    overflow: visible; /* For IE */
+    height: 20px;
+    border-style: solid;
+    border-color: #99695B;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    color: #99695B;
+    outline-color: #99695B;
+    opacity: 0.4;
+    margin-bottom: 0px
+}
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Gamja Flower', cursive;
+}
+
+/* Change the background color on mouse-over */
+.header-right a:hover {
+  background-color: #306a91;
+  color: white;
+}
+
+
+.header-right {
+  float: right;
+  margin-left: 65%;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+  .header-right {
+    float: none;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+/*  Cards  */
+  
+  .card {
+    width: 24.1%;
+    height: 40%;
+    background-color: #306391;
+    float: left;
+    margin-left: 10px;
+
+  }
+
+/* Single-direction drop shadow */
+
+/*.footer {*/
+/*    height: 12px;*/
+/*    border: 0;*/
+/*    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+
+
+.cardText {
+  font-family:'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.cardRow {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#breedQuizButton:hover {
+  background-image: url("https://i.imgur.com/B4gPbnx.gif");
+  display: inline-block;
+}
+
+#budgetQuizButton:hover {
+  background-image: url("https://i.imgur.com/PbBBeOH.gif");
+  display: inline-block;
+}
+
+#getInvolvedButton:hover {
+  background-image: url("https://i.imgur.com/fm2Nc2V.gif")
+}
+
+#aboutUsButton:hover {
+  background-image:url("https://i.imgur.com/tV4h8aV.gif")
+}
+
+
+#row1 {
+  display: inline-block;
+}
+
+/*body {*/
+/*  background-color: #FEFEFE;*/
+/*}*/
+/*.top{*/
+/*background-color: #F9F6FA;*/
+/*}*/
+/*.header {*/
+/*  overflow: hidden;*/
+/*  background-color: #5AA5E8;*/
+/*  padding: 20px 10px;*/
+/*  font-family: Gill Sans, sans-serif;*/
+/*}*/
+/*.footer {*/
+/*  text-align: center;*/
+  
+/*}*/
+
+/*hr {*/
+/*    height: 12px;*/
+/*    border: 0;*/
+/*    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+/*.header a {*/
+/*  float: left;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  padding: 12px;*/
+/*  text-decoration: none;*/
+/*  font-size: 18px; */
+/*  line-height: 25px;*/
+/*  border-radius: 4px;*/
+/*}*/
+
+/*.header a.logo {*/
+/*  font-size: 40px;*/
+/*  font-weight: bold;*/
+/*  color: white;*/
+/*  font-family: 'Gamja Flower', cursive;*/
+/*}*/
+
+/* Change the background color on mouse-over */
+/*.header-right a:hover {*/
+/*  background-color: #4C8BC4;*/
+/*  color: white;*/
+/*}*/
+
+
+/*.header-right {*/
+/*  float: right;*/
+/*  margin-left: 65%;*/
+/*}*/
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+/*@media screen and (max-width: 500px) {*/
+/*  .header a {*/
+/*    float: none;*/
+/*    display: block;*/
+/*    text-align: left;*/
+/*  }*/
+/*}*/
+/*  .header-right {*/
+/*    float: none;*/
+/*  }*/
+  
+/*  h1 {*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*  }*/
+  
+/*  Cards  */
+  
+/*  .card {*/
+/*    width: 24.1%;*/
+/*    height: 40%;*/
+/*    background-color: #306391;*/
+/*    float: left;*/
+/*    margin-left: 10px;*/
+
+/*  }*/
+
+/* Single-direction drop shadow */
+
+/*.footer {*/
+/*    height: 12px;*/
+/*    border: 0;*/
+/*    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+
+
+/*.cardText {*/
+/*  font-family:'Montserrat', sans-serif;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  font-size: 50px;*/
+/*}*/
+
+/*.cardRow {*/
+/*  margin-left: 0%;*/
+/*  margin-right: 0%;*/
+/*}*/
+
+/*#breedQuizButton:hover {*/
+/*  background-image: url("https://i.imgur.com/B4gPbnx.gif");*/
+/*  display: inline-block;*/
+/*}*/
+
+/*#budgetQuizButton:hover {*/
+/*  background-image: url("https://i.imgur.com/PbBBeOH.gif");*/
+/*  display: inline-block;*/
+/*}*/
+
+/*#getInvolvedButton:hover {*/
+/*  background-image: url("https://i.imgur.com/fm2Nc2V.gif")*/
+/*}*/
+
+/*#aboutUsButton:hover {*/
+/*  background-image:url("https://i.imgur.com/tV4h8aV.gif")*/
+/*}*/
+
+
+/*#row1 {*/
+/*  display: inline-block;*/
+/*} */
+
+

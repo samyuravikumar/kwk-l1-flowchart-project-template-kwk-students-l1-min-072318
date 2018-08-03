@@ -1,0 +1,85 @@
+body {
+  background-color: #FEFEFE;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #356fa3;
+  padding: 20px 10px;
+  font-family: Gill Sans, sans-serif;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Gamja Flower', cursive;
+}
+
+/* Change the background color on mouse-over */
+.header-right a:hover {
+  background-color: #306a91;
+  color: white;
+}
+
+/* Style the active/current link*/
+/* .header a.active {
+  background-color: #4D4DC7;
+  color: white;
+} */
+
+.header-right {
+  float: right;
+  margin-left: 65%;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+  .header-right {
+    float: none;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4C8BC4;
+    font-size: 50px; 
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4C8BC4;
+  }
+  
+  p {
+    font-family: Gill Sans, sans-serif;
+    font-size: 22px;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: #172A66;
+    line-height: 1.5;
+  }
+  
+  form {
+    font-family: Gill Sans, sans-serif;
+    color: #172A66;
+  }
+
+
+
