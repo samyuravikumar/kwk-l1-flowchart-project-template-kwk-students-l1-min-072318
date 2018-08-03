@@ -7,7 +7,9 @@ body {
   padding: 20px 10px;
   font-family: Gill Sans, sans-serif;
 }
-
+.footer {
+  text-align: center;
+}
 .header a {
   float: left;
   color: white;
