@@ -44,7 +44,7 @@ end
   post '/nearby_shelters' do
      @input = params[:state]
      erb :'nearbyshelters.html' 
-end 
+# end 
 #   post '/nearby_shelters' do
 #     "Hello World"
 # end
@@ -154,6 +154,7 @@ end
   else
     @rec =  "Sorry, we don't recognize that state. We only accept states in America. Make sure you use the state's abbreviation. For example, mn for Minnesota. Try again."
   end
+end
 
   # @shelter=[@input]
   # erb :'nearbyshelters'
